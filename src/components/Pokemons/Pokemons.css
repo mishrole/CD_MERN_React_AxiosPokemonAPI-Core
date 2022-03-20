@@ -6,3 +6,8 @@
 .test {
   height: 100vh;
 }
+
+.card-img-top {
+  max-height: 256px;
+  min-height: 180px;
+}
