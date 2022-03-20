@@ -24,7 +24,8 @@ export const getPokemons = (offset = 0, limit = 20) => {
 
       return {
         ...pokemon,
-        image: currentPokemon.sprites.front_shiny
+        image: currentPokemon?.sprites?.front_shiny,
+        artwork: currentPokemon?.sprites?.other["official-artwork"]?.front_default
       }
 
     });

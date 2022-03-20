@@ -64,7 +64,7 @@ const Pokemons = () => {
               return (
                 <div className="col-12 col-sm-6 col-md-3 col-xl-2 py-2" key={index}>
                   <Card>
-                  <Card.Img variant="top" src={pokemon.image} />
+                  <Card.Img variant="top" src={pokemon.artwork} />
                     <Card.Body>
                       <Card.Title className="text-center">{pokemon.name}</Card.Title>
                     </Card.Body>
