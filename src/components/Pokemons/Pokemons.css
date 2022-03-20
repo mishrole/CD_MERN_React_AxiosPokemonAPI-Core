@@ -8,6 +8,7 @@
 }
 
 .card-img-top {
-  max-height: 256px;
+  max-height: 180px;
   min-height: 180px;
+  object-fit: contain;
 }
