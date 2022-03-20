@@ -1,0 +1,57 @@
+.loading {
+  display: block;
+  height: 30px;
+  width: 100px;
+}
+
+.bar {
+  animation: loading 0.8s infinite ease-in-out;
+  background: #f8f8f8;
+  display: inline-block;
+  height: 30px;
+  margin-right: 5px;
+  opacity: .6;
+  position: relative;
+  width: 8px;
+  -webkit-animation: loading 0.8s infinite ease-in-out;
+}
+
+.bar:nth-child(2) {
+  animation-delay: -0.7s;
+  -webkit-animation-delay: -0.7s;
+}
+
+.bar:nth-child(3) {
+  animation-delay: -0.6s;
+  -webkit-animation-delay: -0.6s;
+}
+
+.bar:nth-child(4) {
+  animation-delay: -0.5s;
+  -webkit-animation-delay: -0.5s;
+}
+
+.bar:nth-child(5) {
+  animation-delay: -0.4s;
+  -webkit-animation-delay: -0.4s;
+}
+
+.bar:nth-child(1),
+.bar:nth-child(5) {
+  background: #35C3FB;
+}
+
+.bar:nth-child(2),
+.bar:nth-child(4) {
+  background: #FFB6CA
+}
+
+@keyframes loading {
+  0%, 40%, 100% { 
+    opacity: .6;
+    height: 28px;
+  } 20% {
+    opacity: 1;
+    height: 26px;
+  }
+}
