@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CD_MERN_React_AxiosPokemonAPI-Core/static/css/main.222bcc8c.css",
+    "main.js": "/CD_MERN_React_AxiosPokemonAPI-Core/static/js/main.fd4a8f35.js",
+    "static/js/787.cd89fb23.chunk.js": "/CD_MERN_React_AxiosPokemonAPI-Core/static/js/787.cd89fb23.chunk.js",
+    "index.html": "/CD_MERN_React_AxiosPokemonAPI-Core/index.html",
+    "main.222bcc8c.css.map": "/CD_MERN_React_AxiosPokemonAPI-Core/static/css/main.222bcc8c.css.map",
+    "main.fd4a8f35.js.map": "/CD_MERN_React_AxiosPokemonAPI-Core/static/js/main.fd4a8f35.js.map",
+    "787.cd89fb23.chunk.js.map": "/CD_MERN_React_AxiosPokemonAPI-Core/static/js/787.cd89fb23.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.222bcc8c.css",
+    "static/js/main.fd4a8f35.js"
+  ]
+}
